@@ -49,7 +49,7 @@
 
 /* Background image styles */
 body {
-  background-image: url("/gradient9.jpg"); /* Replace with the actual path to your image file */
+  background-image: url("https://raw.githubusercontent.com/Gokul-Raja84/SRMGPAPro/main/assets/gradient9.jpg"); /* Replace with the actual path to your image file */
   background-size: cover;
   background-repeat: no-repeat;
 }
