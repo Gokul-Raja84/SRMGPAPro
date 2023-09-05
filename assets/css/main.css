@@ -1,0 +1,108 @@
+/* Updated CSS with background image */
+.hidden {
+  display: none;
+}
+
+#more {
+  margin: 0 0 10px 0;
+  padding: 15px 15px;
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+
+.style {
+  font-family: "Raleway", sans-serif;
+}
+
+.container-fluid h1 {
+  color: blanchedalmond;
+  margin: 2% 17%;
+}
+
+.container-fluid h2 {
+  color: white;
+}
+
+#fb {
+  float: right;
+}
+
+.container-fluid form table {
+  width: 50%;
+  margin: 5% 11.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+#go {
+  width: 12%;
+  margin: 0;
+}
+
+#reset {
+  width: 15%;
+  margin: 5% 13%;
+}
+
+#gpa {
+  color: azure;
+}
+
+/* Background image styles */
+body {
+  background-image: url("/gradient9.jpg"); /* Replace with the actual path to your image file */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-p-color {
+  background-color: #0dcaf0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.copyright {
+  margin-left: 48px;
+}
+
+/* Progress Bar */
+.progress {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 18px;
+  background-color: #ee303c;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-striped .progress-bar {
+  background-color: #fcbc51;
+  width: 50%;
+  background-image: linear-gradient(
+    45deg,
+    rgb(252, 163, 17) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgb(252, 163, 17) 50%,
+    rgb(252, 163, 17) 75%,
+    transparent 75%,
+    transparent
+  );
+  animation: progressAnimationStrike 6s;
+}
+
+@keyframes progressAnimationStrike {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
